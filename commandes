@@ -1,0 +1,16 @@
+
+Création d'un nouveau dépôt en ligne de commande
+
+touch README.md
+git init
+git checkout -b main
+git add README.md
+git commit -m "first commit"
+git remote add origin https://git.f2rsmpsy.org/antoine.lamer/these_chloe.git
+git push -u origin main
+
+Soumission d'un dépôt existant par ligne de commande
+
+git remote add origin https://git.f2rsmpsy.org/antoine.lamer/these_chloe.git
+git push -u origin main
+
